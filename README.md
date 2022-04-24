@@ -23,6 +23,33 @@ git clone https://github.com/Almogma/Messaging-system.git
     "password": "password"
 }
 ```
+put the format in the body of the 'POST register into the system' request and fill your details.
+
+## Login format
+
+```bash
+{
+    "username": "name",
+    "password": "password"
+}
+```
+Put the format inside the body of the 'POST login into the system' request and fill your details.
+You will get a token after this call, keep it to other calls.
+
+## Write-Message format
+ * First insert the token you were given at the login step inside the headers under the name 'auth-token'
+ * insert as well Content-Type: appliaction/json.
+```bash
+{
+    "Sender": <Sender_Name>,
+    "Receiver": <Receiver_Name>,
+    "Message": <Message>,
+    "Subject": <Subject>,
+    "Creation_date": <Date>
+}
+```
+Put the format inside the body of the 'POST Write message' request and fill your details.
+You will get a token after this call, keep it to other calls.
 
 
 ## Authors
