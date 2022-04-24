@@ -17,13 +17,13 @@ git clone https://github.com/Almogma/Messaging-system.git
 
 ## Registration format
 
+```bash
 {
     "username": "name",
     "password": "password"
 }
 ```
-command to run if program contains helper info
-```
+
 
 ## Authors
 
