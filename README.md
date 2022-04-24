@@ -9,6 +9,7 @@ git clone https://github.com/Almogma/Messaging-system.git
 ```
 ### Executing program
 
+* importing the json file 'MsgSystemHeroku.postman_collection.json' into [POSTMAN](https://web.postman.co/)
 * register to the system.
 * login into the system with the given token that you have got from the registration.
 * action any call that you want with the given token.
