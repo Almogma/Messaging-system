@@ -9,11 +9,10 @@ git clone https://github.com/Almogma/Messaging-system.git
 ```
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-node server.js
-```
+* register to the system.
+* login into the system with the given token that you have got from the registration.
+* action any call that you want with the given token.
+
 
 ## Help
 
