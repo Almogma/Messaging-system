@@ -15,9 +15,12 @@ git clone https://github.com/Almogma/Messaging-system.git
 * action any call that you want with the given token.
 
 
-## Help
+## Registration format
 
-Any advise for common problems or issues.
+{
+    "username": "name",
+    "password": "password"
+}
 ```
 command to run if program contains helper info
 ```
