@@ -19,8 +19,8 @@ git clone https://github.com/Almogma/Messaging-system.git
 
 ```bash
 {
-    "username": "name",
-    "password": "password"
+    "username": <name>,
+    "password": <password>
 }
 ```
 put the format in the body of the 'POST register into the system' request and fill your details.
@@ -29,8 +29,8 @@ put the format in the body of the 'POST register into the system' request and fi
 
 ```bash
 {
-    "username": "name",
-    "password": "password"
+    "username": <name>,
+    "password": <password>
 }
 ```
 Put the format inside the body of the 'POST login into the system' request and fill your details.
@@ -49,7 +49,7 @@ You will get a token after this call, keep it to other calls.
 }
 ```
 Put the format inside the body of the 'POST Write message' request and fill your details.
-You will get a token after this call, keep it to other calls.
+Your message will display after you make the call.
 
 
 ## Authors
