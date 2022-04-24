@@ -1,9 +1,5 @@
 # Messaging-System
 
-Simple overview of use/purpose.
-
-## Description
-
 rest API backend system that handing messages between users.
 
 ## Getting Started
